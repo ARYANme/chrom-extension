@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        html, body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            color: black;
+            background-color: black;
+            min-height: 180px;
+            padding: 0;
+            
+            width: 348px;
+        }
+
+        h1{
+            font-family: 'Menlo',monospace;
+            font-size: 22px;
+            font-weight: 400px;
+            margin: 0;
+            color: rgb(255, 255, 255);
+        }
+
+        a:link, a:visited{
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img{
+            width: 30px;
+
+        }
+
+        .modal-hadder{
+            align-items: center;
+            border: rgb(35, 192, 184);
+            border-bottom: mediumseagreen;
+        }
+
+        .modal-content{
+            padding: 0 22px;
+        }
+
+        .modal-icons{
+            border-top: 0.5px solid #dddddd;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo{
+            padding: 16px;
+        }
+
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version{
+            color: blue;
+
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover{
+            opacity: 0.4;
+        }
+
+        .fa-youtube{
+            font-size: 44px;
+
+            color: rgb(245, 245, 245);
+        }
+        .fa-youtube:before {
+            content: "\f167";
+            font-size: 44px;
+        }
+
+
+        .fa-whatsapp{
+            font-size: 40px;
+            color: rgb(0, 255, 34);
+        }
+        .fa-whatsapp:before {
+            content: "\f167";
+            font-size: 44px;
+        }
+
+        .fa-google{
+            font-size: 40px;
+            color: rgb(204, 5, 5);
+        }
+        .fa-google:before {
+            content: "\f167";
+            font-size: 44px;
+        }
+        
+        .fa-search{
+            font-size: 40px;
+            color: rgb(0, 217, 255);
+        }
+        .fa-search:before {
+            content: "\f167";
+            font-size: 44px;
+        }
+
+    </style>
+
+  <title>Aryan Launcher</title>
+  <link rel="stylesheet" href="https://fonts/googlrapis.com/css?family=open+sens" type="text/css">
+  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <div class="model-hadder">
+        <h1 class="logo">
+            <img src="icon.jpg" class="logo-icon"> Aryan's Launcher 
+            <span class="version"></span>
+        </h1>
+    </div>   
+        <div class="model-content">
+        <p style="color: rgb(3, 5, 3);margin-top: -14px;">____________________________________________________________________________________</p> 
+    </div>
+
+    <div class="model-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://youtube.com/" target="_blank">
+                   <i class="fa fa-youtube"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                   <i class="fa fa-whatsapp"></i>
+                </a>
+            </div>
+            
+            <div class="flex">
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                   <i class="fa fa-google"></i>
+                </a>
+            </div>
+
+            <div class="flex">
+                <a href="http://www.google.com/" target="_blank">
+                   <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+     <script src="popup.js"></script>
+</body>
+</html>
